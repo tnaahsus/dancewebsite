@@ -1,0 +1,35 @@
+extends base.pug
+
+block scripts
+    script(src='../static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content
+    section#introSection
+        div Welcome to Madhu's Dance Academy 
+        div.small Create. Dance. Live.
+    hr
+    hr
+    section#missionSection
+        h2 Our Missions
+        div.container
+            div.card
+                h3 This is the best dance academy of the universe
+            div.card 
+                h3 This is the best dance academy of the universe
+            div.card 
+                h3 This is the best dance academy of the universe 
+    hr
+    hr
+    section#sponsorSection
+        h2 Our Sponsors
+        div#sponsors 
+            img(src=" ../static/logo1.png") 
+            img(src=" ../static/logo2.png") 
+            img(src=" ../static/logo3.png") 
+            img(src=" ../static/logo4.png") 
+            
+        

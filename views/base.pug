@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Madhu's Dance Academy
+    block scripts
+    block style 
+    style 
+      include ../static/nav.css   
+  body
+    nav#navbar 
+      ul
+        img(src='../static/imp3.png' id="logoimg")
+        li #[a(href="/")  Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class Info]
+        li #[a(href="/contact") Contact us]
+    block content
+    footer#footer
+        | Copyright © 2021 MadhusDanceAcademy.com | All Rights Reserved

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+*{
+   padding: 0;
+   margin: 0; 
+   box-sizing: border-box;
+} 
+#logoimg{
+    height: 66px;
+    width: 66px;
+    position:fixed; 
+	top:0; 
+	left:0; 
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: rgba(255, 247, 247, 0.897);
+    padding: 17px 22px;
+    font-family: 'Playfair Display', serif;
+    position: fixed; 
+    top: 0;
+    width: 100%;  
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar li a{
+    font-weight: 900;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: black;
+}
+#navbar li a:hover{
+    background-color: rgba(29, 27, 27, 0.123);
+    text-decoration: none;
+}
+
+#footer{
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(0, 0, 0, .9);
+    
+}
+.container{
+    height: 95vh;
+    margin: 13px 0;
+    /* background: center / cover no-repeat url(../static/intro.jpg) ;
+    top: 0; */
+    
+}
+h1{
+    padding-top: 65px;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+    
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.myInput{
+    font-size: 13px;
+    width: 40%;
+    padding: 8px;
+    margin: 6px;
+    border: 2px solid rgb(36, 20, 20);
+    border-radius: 9px;
+    outline: none;
+}
+.btn{
+    padding: 10px 13px;
+    font-size: 15px;
+    border: 2px solid rgb(36, 20, 20);
+    background-color: rgba(0, 0, 0, .7) ;
+    color: white;
+    border-radius: 9px;
+    cursor: pointer;
+
+}

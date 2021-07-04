@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+} 
+
+
+#introSection{
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    height: 900px;
+    background: center / cover no-repeat url(../static/bg.jpg)  ;
+    background-color: aqua;
+    color: white;
+    font-family: 'Viaoda Libre', cursive;
+
+}
+#introSection div.small{
+    font-size: 1.8rem;
+}
+
+#missionSection{
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.918); 
+    background: center / cover no-repeat url(../static/bg2.jpg)  ;
+    
+}
+#missionSection h2{
+    padding-top: 60px;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card{
+    background-color:rgba(0, 0, 0, 0.5) ;
+    height: 280px;
+    width: 380px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 13px 10px;
+    margin: 100px auto;
+}
+.card h3{
+    color:white ;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#sponsorSection{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.918);
+    background: center / cover no-repeat url(../static/intro.jpg) ;
+}
+#sponsorSection h2{
+    padding-top: 40px;
+    background-color:rgba(0, 0, 0, 0.4) ;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255); 
+    font-family: 'Playfair Display', serif
+}
+#sponsors{
+    height: 200px;
+    max-width: 1200px;
+    margin: auto;
+}
+#sponsors img{
+    height: 150px;
+    margin: 70px;
+}
